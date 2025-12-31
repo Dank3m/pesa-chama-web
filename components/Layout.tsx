@@ -8,7 +8,7 @@ import {
   Search,
   Menu,
   X,
-  HandCoins,
+  Coins,
   LogOut,
   User as UserIcon,
   HelpCircle,
@@ -42,7 +42,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activePage, onNavigate, onLog
     { id: 'dashboard', label: 'Dashboard', icon: <LayoutDashboard size={24} /> },
     { id: 'transactions', label: 'Transactions', icon: <ArrowRightLeft size={24} /> },
     { id: 'loans', label: 'Loans', icon: <CreditCard size={24} /> },
-    { id: 'contributions', label: 'Contributions', icon: <HandCoins size={24} /> },
+    { id: 'contributions', label: 'Contributions', icon: <Coins size={24} /> },
     { id: 'expenses', label: 'Expenses', icon: <Receipt size={24} /> },
   ];
 
